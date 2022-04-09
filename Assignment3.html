@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assignment 3</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="Assignment3.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+ <!-- minified CSS -->
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+ <!-- jQuery -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+ </script>
+ <!-- Popper JS -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+ </script>
+ <!-- JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+ </script>
+ 
+ <head>
+     <header> 
+		<div class="container-fluid">
+			<h1><img src= "images/me.png" alt = "Rex"  width ="150" height="200"/>
+			<span>Rex R.
+			</span>
+			</h1>
+		<div class="container-fluid">
+			<nav>
+		<h3><a href="Assignment3.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#Hobbies">Hobbies</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#Education">Education</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#ContactMe">Contact me</a></h3>
+			</nav>
+		</div>
+    </header>
+ </head>
+ 
+ <body>
+	<div class="entry">
+	<div class="container-fluid">
+		<h1 id="Hobbies">My hobbies and interests include watching movies</h1>
+	<div class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="images/43308731958b3b64b4dc743484892881--classic-movie-posters-horror-movie-posters.jpg" width="200" height="300" alt="Jaws" />
+	</div>
+	<div class="carousel-item">
+		<img src="images/star-wars-force-awakens-official-poster.jpg" width="200" height="300" alt="Star Wars" />
+	</div>
+	<div class="carousel-item">
+		<img src="images/69e13905f89444a4e0832de9205f0661.jpg" width="200" height="300" alt="Harry Potter" />
+	</div>
+	<div class="carousel-item">
+		<img src="images/maleficent_movie_poster_2.jpg" width="200" height="300" alt="maleficent" />
+	</div>
+	<div class="carousel-item">
+		<img src="images/1ec75fb52d39d18752561e6e32ec99a5.jpg" width="200" height="300" alt="Thor" />
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+
+    <div class="container-fluid">
+	<h1 id="Education">Education</h1>
+	<div class="video">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/2OxvNfgGuMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="text">
+		<p>Students from Calgary and around the world consistently rank Mount Royal among Canada's best universities for quality of teaching and overall educational experience. Mount Royal offers two bachelor's degrees in Science and Technology; The Bachelor of Computer Information Systems and the Bachelor of Science with a major in Computer Science. The Bachelor of Computer Information Systems focuses on the practical application of computer systems in a business environment. The goal is to develop a double skill-set that combines technical understanding with solid business acumen in software development, systems analysis and project management. 
+		</p>
+    </div>
+ 
+	<div class="container-fluid">
+		<fieldset>
+			<legend>
+				<h1 id="ContactMe">
+					Contact me
+				</h1>
+			</legend>
+			
+			<label> <h4>Date of inquiry
+				<input name="date" type="date" required/></h4>
+			</label>
+				
+			<h4> is this an ergent inquiry?
+			<input type="radio" id="no" name="choice" value="no" checked>
+				<label for="no">no</label> &nbsp;&nbsp;&nbsp;&nbsp;	
+				<input type="radio" id="yes" name="choice" value="yes" checked>
+				<label for="yes">yes</label> &nbsp;&nbsp;&nbsp;&nbsp;
+				</h4>
+				
+				<h4> name &nbsp;&nbsp;&nbsp;&nbsp;
+				<input placeholder="name" type="name" title="name">
+				</h4>
+							
+				<h4> Subject &nbsp;&nbsp;&nbsp;&nbsp;
+				<input placeholder="Subject" type="subject" title="Subject">
+				</h4>
+							
+				<h4> email &nbsp;&nbsp;&nbsp;&nbsp;
+				<input maxlength="50" placeholder="@email.com" type="emailfield" title="email">
+				</h4>
+							
+				<h4>
+				<label for="Comments">Comments*:</label>
+				<textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+				</h4>
+				
+				<button>submit</button>
+				<button onClick="window.location.href=window.location.href">reset</button>
+		</fieldset>
+</body>
+
+<footer>
+	<div class="container-fluid">
+		<h5><a href="Assignment3.html">Home</a> | <a href="#Hobbies">Hobbies</a> | <a href="#TopMovie">Top</a> | <a href="#Education">Education</a> | <a href="#ContactMe">Contact me</a></h5>
+		<h5><em>Copyright &copy; 2022 Share Your Movies</em></h5>
+	</div>
+</footer>
+</html>
